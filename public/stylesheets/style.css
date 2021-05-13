@@ -6,26 +6,46 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-  color: #333;
+  font-family: 'sans serif';
+  font-weight: bold;
+  color: #000000;
+  background-color: lightgrey;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #000000;
   font-weight: bold;
+  font-family: 'EB Garamond', serif;
   transition: color .1s;
 }
 
+a.b {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  font-size: 2em;
+  transition: color .1s;
+  margin-bottom: 5px;
+}
+
+nav {
+  border-bottom: 1px solid #000000;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 7px;
+}
+
 a:hover {
-  color: #3486eb;
+  color: #000000;
 }
 
 button {
-  background-color: #225ca3;
-  border: 0;
+  background-color: white;
+  border: 1px solid #000000;
   padding: 1%;
-  color: white;
+  color: #000000;
   font-weight: bold;
   transition: background-color .1s;
   cursor: pointer;
@@ -33,23 +53,26 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: white;
 }
 
 .post-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
 }
 
 textarea, input {
   padding: .5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
 }
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid #000000;
 }
 
 textarea {
@@ -65,6 +88,13 @@ form label {
   display: block;
 }
 
+.login-form,
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -75,29 +105,29 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
-  display: flex;
-  justify-content: space-between;
+  border-bottom: 1px solid #000000;
   align-items: center;
+  text-align: center;
   padding: 0 1%;
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 3em;
+  font-family: 'Abril Fatface';
 }
 
 main {
   flex: 1;
   padding: 2% 4%;
+  column-count: 2;
 }
 
 .btn-no-style {
   background: none;
-  border: none;
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #000000;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -106,7 +136,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: white;
 }
 
 .delete-post-btn {
@@ -125,7 +155,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: #000000;
 }
 
 .edit-link {
@@ -152,7 +182,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: lightgrey;
 }
 
 .comment .meta {
@@ -170,7 +200,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #000000;
   display: flex;
   justify-content: center;
   padding: 1%;

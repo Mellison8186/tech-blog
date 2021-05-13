@@ -4,30 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Just Tech News</a>
+        <a href="/">Tech Blog</a>
       </h1>
+      </header>
+      <div class="a.b">
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <a class="btn-no-style" href="/dashboard">dashboard</a>
+        <a id="logout" class="btn-no-style">logout</a>
         {{else}}
-        <a href="/login">login</a>
+        <a class="b" href="/login">login</a>
         {{/if}}
       </nav>
-    </header>
+      </div>
     <main>
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting!
+      Where nerds go for knowledge!
     </footer>
   </div>
   
