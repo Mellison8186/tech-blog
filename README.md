@@ -18,7 +18,7 @@ A place where nerds can share knowledge.
 * Bcrypt
 
 ## Website
-https://mellison8186.github.io/tech-blog/
+https://sleepy-gorge-41466.herokuapp.com/
 
 ## Contribution
 Made with ❤️ by Maribel Ellison
