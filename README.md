@@ -6,7 +6,7 @@ A blogsite that provides information about the latest and greates technological 
 A place where nerds can share knowledge.
 
 ## Screenshots of the home page
-<img width="1440" alt="Screen Shot 2021-05-13 at 2 40 21 PM" src="https://user-images.githubusercontent.com/77599753/118191300-3ad1f900-b3f9-11eb-89bd-cd680e7bbb82.png">
+<img width="1440" alt="Tech Blog Home Page Screenshot" src="https://user-images.githubusercontent.com/77599753/118191300-3ad1f900-b3f9-11eb-89bd-cd680e7bbb82.png">
 
 ## Built With
 * HTML
@@ -18,7 +18,7 @@ A place where nerds can share knowledge.
 * Bcrypt
 
 ## Website
-https://sleepy-gorge-41466.herokuapp.com/
+![underConstruction](https://github.com/Mellison8186/tech-blog/assets/77599753/ed3284dc-8543-4b6f-a36a-438dce8f4cf8)
 
 ## Contribution
 Made with ❤️ by Maribel Ellison
